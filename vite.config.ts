@@ -1,3 +1,4 @@
+https://github.com/divadoorstep/DoorstepDiva/blob/main/vite.config.ts// vite.config.ts
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -7,4 +8,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  // Add this line:
+  base: '/',
 });
